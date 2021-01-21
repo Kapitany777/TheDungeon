@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dungeon.Names
+namespace Dungeon.GameData
 {
-    public class Class1
+    public class Player : BaseData
     {
+        public Player()
+        {
+
+        }
     }
 }
