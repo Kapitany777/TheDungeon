@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dungeon.Names;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace TheDungeon
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ButtonGenerate_Click(object sender, RoutedEventArgs e)
+        {
+            PlayerName names = new PlayerName();
+            
+            TextBoxNames.Clear();
+
+            for (int i = 0; i < 20; i++)
+            {
+                TextBoxNames.AppendText($"{names.NextName()}{Environment.NewLine}");
+            }
         }
     }
 }

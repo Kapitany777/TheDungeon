@@ -94,5 +94,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dungeon.GameData\Dungeon.GameData.csproj">
+      <Project>{5cb661e3-c9a0-48aa-8be5-2c8e751dac57}</Project>
+      <Name>Dungeon.GameData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dungeon.Names\Dungeon.Names.csproj">
+      <Project>{a9ac6c32-3e75-4996-9d68-53bc6a7d56df}</Project>
+      <Name>Dungeon.Names</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dungeon.Utils\Dungeon.Utils.csproj">
+      <Project>{5ada9b0c-e9e8-4e42-8ab0-73aa26058d63}</Project>
+      <Name>Dungeon.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
