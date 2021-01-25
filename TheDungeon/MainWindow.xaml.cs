@@ -1,4 +1,6 @@
-﻿using Dungeon.Names;
+﻿using Dungeon.GameData;
+using Dungeon.Names;
+using Dungeon.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,9 +23,15 @@ namespace TheDungeon
     /// </summary>
     public partial class MainWindow : Window
     {
+        Player player;
+        
         public MainWindow()
         {
             InitializeComponent();
+
+            player = new Player("Feriba");
+
+            StackPanelPlayer.DataContext = player;
         }
 
         private void ButtonGenerate_Click(object sender, RoutedEventArgs e)
@@ -36,6 +44,8 @@ namespace TheDungeon
             {
                 TextBoxNames.AppendText($"{names.NextName()}{Environment.NewLine}");
             }
+
+            this.Title = Directories.SaveGames;
         }
     }
 }

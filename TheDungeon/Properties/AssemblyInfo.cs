@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("TheDungeon")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Kapitany")]
 [assembly: AssemblyProduct("TheDungeon")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]

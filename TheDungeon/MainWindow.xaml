@@ -8,9 +8,20 @@
         Title="MainWindow" Height="450" Width="800"
         WindowState="Maximized">
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Margin="15" Grid.Row="0">
             <TextBox Name="TextBoxNames" AcceptsReturn="True" />
             <Button Name="ButtonGenerate" Content="Generate names" Click="ButtonGenerate_Click" />
+        </StackPanel>
+
+        <StackPanel Name="StackPanelPlayer" Margin="15" Grid.Row="1">
+            <TextBlock Name="TextBlockName" Text="{Binding Name}" />
+            <TextBlock Name="TextBlockHP" Text="{Binding HitPoints}" />
+            <TextBlock Name="TextBlockLevel" Text="{Binding Level}" />
         </StackPanel>
     </Grid>
 </Window>
