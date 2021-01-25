@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dungeon.GameData
 {
+    [Serializable]
     public class Player : BaseData
     {
         /// <summary>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon.GameData", "Dungeon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon.Names", "Dungeon.Names\Dungeon.Names.csproj", "{A9AC6C32-3E75-4996-9D68-53BC6A7D56DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dungeon.GameData.Serialization", "Dungeon.GameData.Serialization\Dungeon.GameData.Serialization.csproj", "{52ADBD09-A5DB-4998-827F-39ABC1D37C9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A9AC6C32-3E75-4996-9D68-53BC6A7D56DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9AC6C32-3E75-4996-9D68-53BC6A7D56DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9AC6C32-3E75-4996-9D68-53BC6A7D56DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ADBD09-A5DB-4998-827F-39ABC1D37C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ADBD09-A5DB-4998-827F-39ABC1D37C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ADBD09-A5DB-4998-827F-39ABC1D37C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ADBD09-A5DB-4998-827F-39ABC1D37C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
